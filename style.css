@@ -1,0 +1,54 @@
+body{
+    font-family: "Outfit";
+    background-color: #d5e1ef;
+}
+
+.contenedor{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-central{
+    border-radius: 20px;    
+    width: 300px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 60px 70px 50px 0 #d4e4f7;
+}
+
+h1{
+    font-size: 20px;
+    padding: 10px 25px 0;
+    font-weight: 700;
+    text-align: center;
+    color: #1F314F;
+}
+
+.parrafo-central{
+    font-size: 15px;
+    padding: 10% 25px 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #aaa9a9;
+}
+
+.imagen-qr{
+    width: 100%;
+    border-radius: 20px
+}
+
+.atribuciones, .pie-pagina{
+    width: 320px;   
+    text-align: center;
+    font-size: 11px;
+    padding: 5px;
+    font-weight: 100;
+}
+
+a{
+    color: hsl(228, 45%, 44%);
+}
